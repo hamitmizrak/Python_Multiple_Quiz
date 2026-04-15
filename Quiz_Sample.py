@@ -5,6 +5,7 @@ from datetime import datetime
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
+# CSV_FILE = Path(__file__).resolve().parent / "./questions.csv"
 CSV_FILE = BASE_DIR / "./questions.csv"
 RESULT_DIR = BASE_DIR / "results"
 
