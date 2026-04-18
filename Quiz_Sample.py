@@ -68,7 +68,6 @@ def load_questions(csv_file):
                     "answer": answer,
                 }
             )
-
         return questions
 
 
